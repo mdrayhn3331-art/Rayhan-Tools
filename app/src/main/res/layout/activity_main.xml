@@ -1,0 +1,31 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#F5F7FB">
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Rayhan Tools" android:textSize="30sp" android:textStyle="bold"
+            android:textColor="#111827"/>
+        <TextView
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="All-in-one utility app" android:textSize="15sp"
+            android:textColor="#6B7280" android:layout_marginBottom="18dp"/>
+
+        <Button android:id="@+id/calculator" android:layout_width="match_parent" android:layout_height="56dp" android:text="🧮  Calculator"/>
+        <Button android:id="@+id/converter" android:layout_width="match_parent" android:layout_height="56dp" android:text="📏  Unit Converter"/>
+        <Button android:id="@+id/timer" android:layout_width="match_parent" android:layout_height="56dp" android:text="⏱  Timer / Stopwatch"/>
+        <Button android:id="@+id/device" android:layout_width="match_parent" android:layout_height="56dp" android:text="📱  Device Info"/>
+        <Button android:id="@+id/qr" android:layout_width="match_parent" android:layout_height="56dp" android:text="🔳  QR Scanner / Generator"/>
+        <Button android:id="@+id/pdf" android:layout_width="match_parent" android:layout_height="56dp" android:text="📄  Image → PDF"/>
+        <Button android:id="@+id/compress" android:layout_width="match_parent" android:layout_height="56dp" android:text="🗜  Image Compressor"/>
+
+        <TextView
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Version 1.0 • Free"
+            android:gravity="center" android:textColor="#9CA3AF"
+            android:layout_marginTop="24dp"/>
+    </LinearLayout>
+</ScrollView>
